@@ -669,7 +669,7 @@ def Classification():
         <hr>
     """, unsafe_allow_html=True)
 
-    tab1, tab2, tab3, tab4, tab5,tab6 = st.tabs(["📘 Lý thuyết Neural Network", "📘 Data", "⚙️ Huấn luyện", "🔢 Dự đoán", "🔥 Mlflow","🎯 Pseudo Labelling"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs(["📘 Lý thuyết Neural Network", "📘 Data", "⚙️ Huấn luyện", "🔢 Dự đoán", "🔥 Mlflow"])
 
     with tab1:
         explain_Pseudo_Labelling()
@@ -682,8 +682,6 @@ def Classification():
         du_doan()
     with tab5:
         show_experiment_selector()
-    with tab6:
-        pseudo_labelling()
 
 if __name__ == "__main__":
    Classification()
