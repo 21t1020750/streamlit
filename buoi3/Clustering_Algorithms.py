@@ -1359,7 +1359,7 @@ def ly_thuyet_kmeans():
     st.markdown('<p style="font-size:22px;">🙏 Cảm ơn bạn đã tham gia khám phá K-means!</p>', unsafe_allow_html=True)
 
 def input_mlflow():
-    DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/Linear_replication.mlflow"
+    DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/streamlit-dagshub.mlflow"
     mlflow.set_tracking_uri(DAGSHUB_MLFLOW_URI)
     os.environ["MLFLOW_TRACKING_USERNAME"] = "PTToan250303"
     os.environ["MLFLOW_TRACKING_PASSWORD"] = "5ca8caf353d564c358852da97c7487e64fc30a73"

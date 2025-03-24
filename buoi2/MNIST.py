@@ -1270,7 +1270,7 @@ def Classification():
     data(), split_data(), train(), du_doan(), and show_experiment_selector().#+
     """#+
     if "mlflow_initialized" not in st.session_state:   
-        DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/Linear_replication.mlflow"
+        DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/streamlit-dagshub.mlflow"
         mlflow.set_tracking_uri(DAGSHUB_MLFLOW_URI)
         st.session_state['mlflow_url']=DAGSHUB_MLFLOW_URI
 

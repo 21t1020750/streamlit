@@ -653,7 +653,7 @@ def pseudo_labelling():
     st.subheader("Phụ giúp Neural Network phân l��p dữ liệu MNIST")
 def Classification():
     if "mlflow_initialized" not in st.session_state:
-        DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/Linear_replication.mlflow"
+        DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/streamlit-dagshub.mlflow"
         mlflow.set_tracking_uri(DAGSHUB_MLFLOW_URI)
         st.session_state['mlflow_url'] = DAGSHUB_MLFLOW_URI
         os.environ["MLFLOW_TRACKING_USERNAME"] = "PTToan250303"
