@@ -425,7 +425,7 @@ def run_linear_regression_app():
 def mlflow_input():
     st.title("🚀 MLflow DAGsHub Tracking với Streamlit")
     
-    DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/Linear_replication.mlflow"
+    DAGSHUB_MLFLOW_URI = "https://dagshub.com/PTToan250303/streamlit-dagshub.mlflow"
     mlflow.set_tracking_uri(DAGSHUB_MLFLOW_URI)
     st.session_state['mlflow_url']=DAGSHUB_MLFLOW_URI
     os.environ["MLFLOW_TRACKING_USERNAME"] = "PTToan250303"
