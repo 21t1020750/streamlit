@@ -15,7 +15,7 @@ import time
 from datetime import datetime
 from sklearn.preprocessing import StandardScaler
 import random
-from tensorflow.keras import layers
+from keras import layers
 
 if "model_trained" not in st.session_state:
     st.session_state.model_trained = False
