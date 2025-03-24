@@ -1,20 +1,33 @@
-streamlit
-scikit-learn
-pandas
+# streamlit
+# scikit-learn
+# pandas
+# matplotlib
+# mlflow
+# streamlit-drawable-canvas==0.9.3
+# Pillow
+# numpy
+# seaborn
+# tensorflow
+# opencv-python-headless
+# langchain-openai
+# dagshub
+# plotly
+# kaleido
+# streamlit-option-menu
+# opencv-python
+# joblib
+# scipy
+# openml
+Pillow
+joblib
 matplotlib
 mlflow
-streamlit-drawable-canvas==0.9.3
-pillow
 numpy
-seaborn
-tensorflow
-opencv-python-headless
-langchain-openai
-dagshub
+pandas
 plotly
-kaleido
-streamlit-option-menu
-opencv-python
-joblib
 scipy
-openml
+scikit-learn
+streamlit
+streamlit_drawable_canvas
+streamlit_option_menu
+tensorflow
